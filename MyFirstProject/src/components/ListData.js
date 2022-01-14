@@ -2,7 +2,7 @@ const usuarios = [
       
     { id: 1, nombre: 'Antonio Romero', edad: 32, género: 'Masculino', instrumento: 'Saxofón', ciudad: 'Cadiz' },
     { id: 2, nombre: 'Sara Durán', edad: 35, género: 'Femenino', instrumento: 'Violín', ciudad: 'Malaga' },
-    { id: 3, nombre: 'Javier Solís', edad: 21, género: 'Masculino', instrumento: 'Guitarra', ciudad: 'Madrid' },
+    { id: 3, nombre: 'Javier Solís', edad: 21, género: 'Masculino', instrumento: 'Triángulo', ciudad: 'Sevilla' },
     { id: 4, nombre: 'Raul Coronado', edad: 21, género: 'Masculino', instrumento: 'Trompeta', ciudad: 'Valencia' },
     { id: 5, nombre: 'Isabel Sánchez', edad: 45, género: 'Femenino', instrumento: 'Piano', ciudad: 'Segobia' },
     { id: 6, nombre: 'Josefa Navarro', edad: 77, género: 'Femenino', instrumento: 'Violín', ciudad: 'Sevilla' },
