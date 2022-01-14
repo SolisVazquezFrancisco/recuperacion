@@ -37,7 +37,7 @@ function App() {
 
         <Tab.Screen options={{headerShown: false ,headerStyle:{backgroundColor:'lime'},
           headerTitleAlign:'center',tabBarStyle:{backgroundColor:'lime'}}} 
-          name="Musicos" component={BusquedaStack} />
+          name="Musicos" component={MusicosStack} />
       
       </Tab.Navigator>
 

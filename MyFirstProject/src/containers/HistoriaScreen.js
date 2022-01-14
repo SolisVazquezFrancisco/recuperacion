@@ -10,7 +10,7 @@ function HistoriaScreen() {
         <Text style={{textAlign:'center', marginTop:20, color:'black',fontSize:20}}>Bienvenido a la historia de los dispositivos</Text>
         
         <Image style={{ height: 500, width: 300, marginLeft: 55, marginTop: 20 }}
-          source={require('./src/assets/blackberry.jpeg')}
+          source={require('../assets/blackberry.jpeg')}
         />
         <Text style={{textAlign:'center', marginTop: 20, color:'black' }}>Blackberry</Text>
         <Text style={{marginTop:10, marginLeft:20}}>
@@ -39,7 +39,7 @@ function HistoriaScreen() {
         </Text>
         
         <Image style={{ height: 500, width: 300, marginLeft: 55, marginTop: 20}}
-          source={require('./src/assets/nokia.jpg'
+          source={require('../assets/nokia.jpg'
           )}
         />
         <Text style={{textAlign:'center', marginTop: 20, color:'black' }}>Nokia</Text>
@@ -63,7 +63,7 @@ function HistoriaScreen() {
         </Text>
   
         <Image style={{ height: 500, width: 300, marginLeft: 55, marginTop: 20}}
-          source={require('./src/assets/iphone.jpeg'
+          source={require('../assets/iphone.jpeg'
           )}
         />
         <Text style={{textAlign:'center', marginTop: 20, color:'black' }}>IPhone</Text>
@@ -87,7 +87,7 @@ function HistoriaScreen() {
         </Text>
   
         <Image style={{ height: 500, width: 300, marginLeft: 55, marginTop: 20}}
-          source={require('./src/assets/samsung.jpg'
+          source={require('../assets/samsung.jpg'
           )}
         />
         <Text style={{textAlign:'center', marginTop: 20, color:'black' }}>Samsung</Text>

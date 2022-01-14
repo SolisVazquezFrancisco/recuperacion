@@ -5,7 +5,7 @@ import BusquedaScreen from '../containers/BusquedaScreen';
 
 const NavigationStack = createNativeStackNavigator();
 
-function BusquedaStack() {
+function MusicosStack() {
   return (
     <NavigationStack.Navigator>
 
