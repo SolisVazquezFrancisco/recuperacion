@@ -42,7 +42,7 @@ function MusicosScreen({ navigation }) {
                 <TextInput style={{fontSize: 20, color: 'black', borderWidth: 1, fontWeight: 'bold', textAlign: 'center', flex: 3}} onChangeText={instrumento => setInstrumento(instrumento)}/>
             </View>
             <TouchableOpacity style={{marginHorizontal: 150}} onPress={() => navigation.navigate('Busqueda', { instrumento: instrumento})}>
-                <Text style={{color:'black', backgroundColor: 'lime', textAlign: 'center', borderRadius: 200, width: 100}}>Buscar</Text>
+                <Text style={{color:'black', backgroundColor: 'lime', textAlign: 'center', width: 100}}>Buscar</Text>
             </TouchableOpacity>
             <FlatList
                 data={usuarios}
