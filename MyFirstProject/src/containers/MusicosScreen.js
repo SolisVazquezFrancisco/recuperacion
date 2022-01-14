@@ -46,7 +46,7 @@ function MusicosScreen({ navigation }) {
             </TouchableOpacity>
             <FlatList
                 data={usuarios}
-                renderItem={({ item }) => (<View>{renderItem(item)</View>})}
+                renderItem={({ item }) => (<View>{renderItem(item)}</View>)}
             />
         </View>
     );
