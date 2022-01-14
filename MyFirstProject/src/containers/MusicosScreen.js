@@ -9,10 +9,10 @@ function MusicosScreen({ navigation }) {
     function genero(item){
         if('Femenino'===item.género)
             return<Image style={{height: 50, width: 50, padding: 40, marginHorizontal: 10}} 
-            source={require('../assets/HombreLogo.png')}/>
+            source={require('../assets/MujerLogo.png')}/>
         else if('Masculino'===item.género)
             return<Image style={{height:50, width: 50, padding: 40, marginHorizontal: 10}}
-            source={require('../assets/MujerLogo.png')}/>
+            source={require('../assets/HombreLogo.png')}/>
     }
 
     function renderItem(item) {
